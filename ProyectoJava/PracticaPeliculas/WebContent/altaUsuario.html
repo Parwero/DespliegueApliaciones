@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/estilos.css">
+<script src="javascript/nuevo.js"></script>
+<title>Insert title here</title>
+
+</head>
+<body>
+<h1> Alta Usuarios </h1 >
+<form method = "GET" action = "alta" id="formulario">
+	<Label for = "email" > Email </label>
+	<Input id = "email" type = "email" name = "email"/>
+	<br/><br/>
+	<Label for = "contrasenia" > Contraseña</label>
+	<Input id = "contrasenia1" type = "password" name = "contrasenia1">
+	<br/><br/>
+	<Label for = "contrasenia" > Contraseña</label>
+	<Input id = "contrasenia2" type = "password" name = "contrasenia2">
+	<br/><br/>
+	<a href=/PracticaPeliculas/inicio.jsp>Ya estas registrado pincha aqui</a>
+	
+	<br/><br/>
+	<Input type = "button" value="Alta" onClick="ComprobarContrasenia()">
+</form >
+
+
+
+<div id="error">
+	<h3>Las contraseñas no son iguales</h3>
+</div>
+
+</body>
+</html>
